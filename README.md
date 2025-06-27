@@ -38,6 +38,6 @@ The API uses **JWT tokens** for user authentication. To test:
 ```bash
 git clone https://github.com/kalyani996/fastapi.git
 cd fastapi
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+source /bin/activate  # or \Scripts\activate on Windows
 pip install -r requirements.txt
 uvicorn blog.main:app --reload
